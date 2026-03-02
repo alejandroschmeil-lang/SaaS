@@ -1,0 +1,78 @@
+[
+    {
+        "name": "Alejandro Schmeil",
+        "factory": "BWA",
+        "user_type": "Admin",
+        "permissions": [
+            "gestionar_tareas",
+            "crear_tarea",
+            "modificar_tarea",
+            "reordenar_tareas",
+            "acciones_lote",
+            "ver_tareas",
+            "informacion_proyecto",
+            "detalles_proyecto",
+            "extras_proyecto",
+            "envio_proyecto",
+            "gestion_proyectos",
+            "tabla_proyectos",
+            "detalle_proyecto",
+            "editar_proyectos",
+            "tareas_proyectos",
+            "envios_proyectos",
+            "crear_proyecto",
+            "gestionar_responsables",
+            "alta_responsable",
+            "lista_responsables",
+            "editar_responsable",
+            "tareas_responsables",
+            "gestionar_calendario",
+            "tabla_feriados",
+            "feriado_individual",
+            "rango_feriados",
+            "agregar_pais",
+            "eliminar_pais",
+            "crear_usuario",
+            "analisis"
+        ],
+        "username": "ale",
+        "password": "ale"
+    },
+    {
+        "name": "Fernando",
+        "factory": "Depot",
+        "user_type": "Admin",
+        "permissions": [
+            "gestionar_tareas",
+            "crear_tarea",
+            "ver_tareas"
+        ],
+        "username": "fer",
+        "password": "123"
+    },
+    {
+        "name": "Tyler",
+        "factory": "Cheer",
+        "user_type": "Admin",
+        "permissions": [
+            "gestionar_tareas",
+            "informacion_proyecto",
+            "gestion_proyectos",
+            "gestionar_responsables",
+            "gestionar_calendario",
+            "tabla_feriados",
+            "feriado_individual",
+            "analisis"
+        ],
+        "username": "ty",
+        "password": "123"
+    },
+    {
+        "name": "asdfasdfa",
+        "factory": "sdfasdfasdf",
+        "user_type": "Admin",
+        "permissions": [],
+        "username": "asdfdsa",
+        "password": "asdfdsa"
+    }
+]
