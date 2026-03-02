@@ -1,7 +1,12 @@
 {
   "Fernando": {
     "base": "Argentina",
-    "extras": []
+    "extras": [
+      [
+        "2026-03-02",
+        "ddd"
+      ]
+    ]
   },
   "Tyler": {
     "base": "China",

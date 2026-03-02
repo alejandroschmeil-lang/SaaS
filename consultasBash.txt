@@ -38,6 +38,9 @@ eliminar py cache
 
 Get-ChildItem -Path . -Recurse -Directory -Filter "__pycache__" | Remove-Item -Recurse -Force
 
+Codespace:
+find . -type d -name "__pycache__" -exec rm -r {} +
+
 
 ///////////////////////////////////////  grep /////
 
@@ -53,7 +56,7 @@ git clean -fd
 
 Get-ChildItem -Path .\app\ -Recurse -Filter *.py | Measure-Object | Select-Object -ExpandProperty Count
 
-
+find . -type f -name "*.py" | wc -l
 
 ////////////////////////////////////////////
 
